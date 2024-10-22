@@ -88,6 +88,7 @@
 
 .home-spa-service-item img {
     max-width: 100%;
+    max-height: 160px;
     border-radius: 8px;
     margin-bottom: 15px;
 }
