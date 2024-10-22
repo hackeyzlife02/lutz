@@ -90,6 +90,7 @@
     width: 100%; /* Ensures the image fills the width of the container */
     height: auto; /* Maintains the aspect ratio */
     max-height: 160px; /* Restricts the height for consistent sizing */
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
     border-radius: 8px;
     margin-bottom: 15px;
 }
