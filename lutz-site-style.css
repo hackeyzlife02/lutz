@@ -1,0 +1,139 @@
+/* Home Spa & Wellness */
+/* Hero Section */
+#home-spa-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #f4f4f4;
+}
+
+#home-spa-hero .home-spa-hero-content {
+    max-width: 50%;
+}
+
+#home-spa-hero img {
+    max-width: 45%;
+    border-radius: 10px;
+}
+
+/* CTA Button */
+.home-spa-cta-button {
+    background-color: #D2AC67;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home-spa-cta-button:hover {
+    background-color: #b08d52;
+}
+
+/* Benefits Section */
+#home-spa-benefits {
+    padding: 60px;
+    text-align: center;
+}
+
+.home-spa-benefits-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.home-spa-benefit-item {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.home-spa-benefit-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Services Section */
+#home-spa-services {
+    padding: 60px;
+}
+
+.home-spa-services-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.home-spa-service-item {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.home-spa-service-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* CTA Section */
+#home-spa-cta {
+    background-color: #D2AC67;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#home-spa-cta .home-spa-cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#home-spa-cta .home-spa-cta-button {
+    background-color: #ffffff;
+    color: #D2AC67;
+    margin-top: 20px;
+}
+
+/* Contact Section */
+#home-spa-contact {
+    padding: 60px;
+    text-align: center;
+}
+
+#home-spa-contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#home-spa-contact input, #home-spa-contact textarea {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#home-spa-contact button {
+    background-color: #D2AC67;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#home-spa-contact button:hover {
+    background-color: #b08d52;
+}
