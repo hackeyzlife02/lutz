@@ -146,3 +146,52 @@
 #home-spa-contact button:hover {
     background-color: #b08d52;
 }
+/* Mobile Styling */
+@media (max-width: 768px) {
+
+    /* Hero Section */
+    #home-spa-hero {
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #home-spa-hero .home-spa-hero-content {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #home-spa-hero img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Benefits Section */
+    .home-spa-benefits-grid {
+        flex-direction: column;
+    }
+
+    /* Services Section */
+    .home-spa-services-grid {
+        flex-direction: column;
+    }
+
+    /* CTA Section */
+    #home-spa-cta {
+        padding: 40px 15px;
+    }
+
+    /* Contact Section */
+    #home-spa-contact {
+        padding: 40px 15px;
+    }
+
+    #home-spa-contact form {
+        max-width: 100%;
+    }
+
+    /* General Adjustments */
+    .home-spa-cta-button {
+        padding: 12px 24px;
+    }
+}
