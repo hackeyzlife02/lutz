@@ -1,0 +1,102 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #555;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #D2AC67;
+}
+
+/* Header Styling */
+header {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    margin: 0 auto;
+    max-width: 600px;
+    font-size: 1.1em;
+}
+
+/* Service Request Form Section */
+#service-request-form {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.form-placeholder {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Information Section */
+#service-info {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+#service-info p {
+    font-size: 1.1em;
+}
+
+.contact-link {
+    color: #D2AC67;
+    font-weight: bold;
+}
+
+.contact-link:hover {
+    color: #b08d52;
+}
+
+/* Footer Styling */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer .footer-links {
+    margin-top: 10px;
+}
+
+footer .footer-links a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 0.9em;
+}
+
+footer .footer-links a:hover {
+    color: #D2AC67;
+}
